@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Sans Pro",sans-serif;
+    
+    background-image: url("./chmury.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.countdown-container{
+    display: flex;
+    justify-content: space-around;
+    min-width: 50vw;
+}
+
+h1{
+    font-size: 3.75rem;
+    margin-top: -5rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.c-el{
+    text-align: center;
+}
+
+.c-el span{
+    font-size: 1.25rem;
+}
